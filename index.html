@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <title>Living ALone Survey</title>
+        <meta charset="utf-8">
+        <link href="styles.css" rel="stylesheet">
+    
+    </head>
+
+    <body>
+        <div class="container">
+            <header>
+                <div class="a">
+                    <h1 id="title">What is it like living alone?</h1>
+                    <p id="description">
+                        Being an independent human is a not an easy task. <br>
+                        It's like being thrown into the wild. <br>
+                        You must fend for yourself. <br>
+                        Tell us what it's like.
+                    </p>
+                </div>
+            </header>
+            <main>
+                <div class="a">
+                    <form id="survey-form" action="#">
+                        <div class="a2">
+                            <label id="name-label" for="name">name</label>
+                            <input class="a3" name="name" id="name" type="text" size="30" maxlength="100" placeholder="will example smith" required>    
+                        </div>
+    
+                        <div class="a2">
+                            <label id="email-label" for="email">email</label>
+                            <input class="a3" name="email" id="email" type="email" size="30" maxlength="100" placeholder="will99@example.com" required>
+                        </div>
+    
+                        <div class="a2">
+                            <label id="number-label" for="number">years spent on this planet for?</label>
+                            <input class="a3" name="age" id="number" type="number" min="3" max="100" placeholder="enter a number" required>
+                        </div>
+    
+                        <div class="a2">
+                            <label>Do you prefer your own company over others?</label>
+                            <select class="a3" id="dropdown" name="personality1" required>
+                                <option disabled selected value>choose 1 below</option>
+                                <option value="introvert">always or most time</option>
+                                <option value="extrovert">barely or never</option>
+                                <option value="introAndExtro">half the time</option>
+                            </select>
+                        </div>
+    
+                        <div class="a2">
+                            <label>would you move back in with your family and live rent free?</label>
+                            <label class="a3" for="yes"><input id="yes" name="moveBack" type="radio" value="yes" checked>yes please</label>
+                            <label class="a3" for="no"><input id="no" name="moveBack" type="radio" value="no">rather be homeless</label>
+                        </div>
+    
+                        <div class="a2">
+                            <label>why did you decide to move out?</label>
+                            <label class="a3" for="peace"><input name="why" id="peace" value="peace" type="checkbox">for peace</label>
+                            <label class="a3" for="freedowm"><input name="why" id="freedom" value="freedom" type="checkbox">for freedom</label>
+                            <label class="a3" for="independent"><input name="why" id="independent" value="indepedence" type="checkbox">to be independent</label>
+                            <label class="a3" for="growth"><input name="why" id="growth" value="growth" type="checkbox">to struggle and grow</label>
+                        </div>
+                        
+                        <div class="a2">
+                            <label>summarise your experience and what it has taught you</label>
+                            <textarea class="a3" name="experience" id="experience" class="textArea" placeholder="keep it short and sweet :)"></textarea>
+                        </div>
+    
+                        <div class="a2">
+                            <button id="submit" type="submit" class="submitButton">submit </button>
+                        </div>
+                        
+                        
+                        
+        
+            
+                    </form>
+                </div>
+                
+            </main>
+        </div>
+        
+    </body>
+</html>
